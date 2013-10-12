@@ -1,0 +1,7 @@
+.DS_Store
+/.idea
+*.pyc
+*.egg-info
+MANIFEST
+/dist
+/.venv*
