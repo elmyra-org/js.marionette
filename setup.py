@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '1.1.0a1'
+version = '1.1.0a2'
 
 
 def read(*rnames):
@@ -26,7 +26,7 @@ setup(
     url='https://github.com/elmyra-org/js.marionette',
     license='MIT',
     packages=find_packages(),
-    namespace_packages=['js', 'js.marionette'],
+    namespace_packages=['js'],
     include_package_data=True,
     zip_safe=False,
     install_requires=[
